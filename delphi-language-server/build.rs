@@ -1,5 +1,5 @@
 fn main() {
-    let pascal_parser_dir = "tree-sitter-pascal";
+    let pascal_parser_dir = "../tree-sitter-pascal";
     let mut config = cc::Build::new();
 
     config.include(pascal_parser_dir);

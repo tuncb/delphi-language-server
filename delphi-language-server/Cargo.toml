@@ -20,4 +20,4 @@ url = "2.5.0"
 cc = "1.0"
 
 [dependencies.tree-sitter-pascal]
-path = "tree-sitter-pascal"
+path = "../tree-sitter-pascal"
