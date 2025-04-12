@@ -1,0 +1,14 @@
+[package]
+name = "tree-sitter-pascal"
+description = "Pascal grammar for the tree-sitter parsing library"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+tree-sitter = "0.20.10"
+
+[build-dependencies]
+cc = "1.0"
