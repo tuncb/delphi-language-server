@@ -1,0 +1,23 @@
+[package]
+name = "delphi-tree-sitter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tree-sitter = "0.20.10"
+clap = { version = "4.4.11", features = ["derive"] }
+tower-lsp = "0.20.0"
+tokio = { version = "1.35.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+log = "0.4"
+env_logger = "0.10"
+dashmap = "5.5.3"
+ropey = "1.6.1"
+url = "2.5.0"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies.tree-sitter-pascal]
+path = "tree-sitter-pascal"
